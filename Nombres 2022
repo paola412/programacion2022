@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 style="background-color:DodgerBlue;">Listado de personas con su contraseña:</h1>
+
+
+<p id="pusuarios">aaaaaaaaaaa</p>
+<p id="ppwd">aaaaaaaaaaa</p>
+
+
+<script>
+const usuarios = ["Paola", "Caro", "María", "Juan"];
+const pwd = ["123", "cba", "papa", "ciel"];
+document.getElementById("pusuarios").innerHTML = usuarios;
+document.getElementById("ppwd").innerHTML = pwd;
+</script>
+
+</body>
+</html>
